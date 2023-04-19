@@ -1,0 +1,31 @@
+
+;; ----- smex-history -----
+(
+ load-theme
+ load-init
+ slime-eval-last-expression
+ slime-eval-buffer
+ slime-eval-print-last-expression
+ slime-connect
+ lispyville-mode
+)
+
+;; ----- smex-data -----
+(
+ (rainbow-delimiters-mode . 4)
+ (comment-or-uncomment-region . 1)
+ (paredit-mode . 2)
+ (load-file . 1)
+ (load-init . 9)
+ (lispyville-mode . 4)
+ (lispy-back . 4)
+ (lispy-barf . 9)
+ (lispy-slurp . 9)
+ (lispyville-barf . 12)
+ (lispyville-slurp . 8)
+ (slime-eval-print-last-expression . 2)
+ (slime-connect . 1)
+ (slime-eval-buffer . 1)
+ (slime-eval-last-expression . 9)
+ (load-theme . 3)
+)
